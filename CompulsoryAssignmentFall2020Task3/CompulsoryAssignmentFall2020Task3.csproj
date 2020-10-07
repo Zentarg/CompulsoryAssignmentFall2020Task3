@@ -4,5 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="External Libraries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assignment1">
+      <HintPath>External Libraries\Assignment1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>
